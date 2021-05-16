@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+</head>
+<body style="background-color:lightblue">
+<form action="contact" method="post">
+    {% csrf_token %}
+    <input type="text" name="name" placeholder="Your name">
+    <input type="text" name="number" placeholder="Your number">
+    <input type="submit" value="ok">
+</form>
+
+<h1 style="color:red">DEN</h1>
+<h3 style="color:green">please contact us @123456 </h3>
+</body>
+</html>
